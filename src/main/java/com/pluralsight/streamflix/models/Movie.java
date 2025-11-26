@@ -18,6 +18,13 @@ public class Movie extends Media implements Watchable{
     }
 
 
+    @Override
+    public void watch() {
 
+    }
 
+    @Override
+    public int getWatchTime() {
+        return durationMinutes;
+    }
 }

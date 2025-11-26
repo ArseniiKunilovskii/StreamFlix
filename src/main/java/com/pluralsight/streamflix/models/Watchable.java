@@ -1,11 +1,9 @@
 package com.pluralsight.streamflix.models;
 
 public interface Watchable {
-    private void watch() {
-    }
 
-    private int getWatchTime(){
-        return 0;
-    }
+        void watch();
+
+        int getWatchTime();
 
 }
